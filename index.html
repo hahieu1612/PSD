@@ -5,15 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PSD</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Sora:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
     <link rel="stylesheet" href="./sass/reset.css" />
     <link rel="stylesheet" href="./sass/style.css" />
+    <script
+      src="https://kit.fontawesome.com/ff72453bc1.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <p>hello world</p>
-    <ul>
-      <li>hello</li>
-      <li>hello</li>
-      <li>hello</li>
-    </ul>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <!-- logo -->
+          <div class="navbar__logo">
+            <img src="./img/logo.png" alt="" website logo />
+          </div>
+          <!-- links -->
+          <ul class="navbar__links">
+            <li class="navbar__link">
+              <a href="#"
+                >Events<i class="fa-sharp fa-solid fa-chevron-down"></i
+              ></a>
+            </li>
+            <li class="navbar__link"><a href="#">Pricing</a></li>
+            <li class="navbar__link blog"><a href="#">Blog</a></li>
+            <a href="#"><button class="navbar__btn">LogIn</button></a>
+          </ul>
+          <!-- menu button -->
+          <div class="navbar__icons">
+            <div class="navbar__icon"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <script src="./js/main.js"></script>
   </body>
 </html>
