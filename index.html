@@ -17,8 +17,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
 
-    <link rel="stylesheet" href="./sass/reset.css" />
-    <link rel="stylesheet" href="./sass/style.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <script
       src="https://kit.fontawesome.com/ff72453bc1.js"
       crossorigin="anonymous"
@@ -26,31 +26,31 @@
   </head>
   <body>
     <!-- header -->
-    <header>
+    <header class="header">
       <div class="container">
-        <nav class="navbar">
-          <!-- logo -->
-          <div class="navbar__logo">
-            <img src="./img/logo.png" alt="" website logo />
-          </div>
-          <!-- links -->
-          <ul class="navbar__links">
-            <li class="navbar__link">
-              <a href="#"
-                >Events<i class="fa-sharp fa-solid fa-chevron-down"></i
-              ></a>
+        <div class="header__inner">
+          <a href="/" class="header__logo">
+            <img src="./assets/logo.png" alt="Playground" />
+          </a>
+          <ul class="header__nav">
+            <li class="header__link">
+              <a href="/"
+                >Events <i class="fa-sharp fa-solid fa-chevron-down"></i>
+              </a>
             </li>
-            <li class="navbar__link"><a href="#">Pricing</a></li>
-            <li class="navbar__link blog"><a href="#">Blog</a></li>
-            <a href="#"><button class="navbar__btn">LogIn</button></a>
+            <li class="header__link">
+              <a href="/">Pricing</a>
+            </li>
+            <li class="header__link">
+              <a href="/">Blog</a>
+            </li>
+            <li class="header__link">
+              <a href="/" class="btn-custom btn-custom-secondary">Log in</a>
+            </li>
           </ul>
-          <!-- menu button -->
-          <div class="navbar__icons">
-            <div class="navbar__icon"></div>
-          </div>
-        </nav>
+        </div>
       </div>
     </header>
-    <script src="./js/main.js"></script>
+    <script src="./helpers/toggle_menu_header.js"></script>
   </body>
 </html>
