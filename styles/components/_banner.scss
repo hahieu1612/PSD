@@ -1,0 +1,32 @@
+.banner {
+    display: flex;
+    &__content {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: var(--color-text-secondary);
+        margin-top: 50px;
+    }
+
+    &__title--primary {
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 51px;
+    }
+
+    &__title--secondary {
+        font-size: 17px;
+        margin-top: 36px;
+        color: var(--color-text-third);
+        line-height: 24px;
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        .btn-custom {
+            padding: 17px 36px;
+        }
+    }
+}
