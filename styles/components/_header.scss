@@ -6,6 +6,9 @@
 
     &__nav {
         @include flex(center);
+        a {
+            color: var(--color-text-secondary);
+        }
     }
 
     &__link {

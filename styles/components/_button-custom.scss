@@ -6,9 +6,21 @@
     padding: 15px 30px;
 
     &-primary {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        border: solid 1px var(--color-text-primary);
+        background-color: var(--color-text-primary);
+        text-decoration: none;
+        margin-left: 25px;
     }
 
     &-secondary {
         border: solid 1px var(--color-text-secondary);
+        justify-content: center;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        text-decoration: none;
     }
 }
