@@ -5,8 +5,7 @@
     cursor: pointer;
     padding: 15px 30px;
 
-    &-primary-banner {
-        margin-top: 20px;
+    &-primary {
         display: flex;
         flex-wrap: nowrap;
         padding: 20px 36px;
@@ -19,16 +18,11 @@
 
     &-secondary {
         border: solid 1px var(--color-text-secondary);
-    }
-
-    &-secondary-banner {
-        margin-top: 20px;
         justify-content: center;
         display: flex;
         flex-wrap: nowrap;
         padding: 20px 36px;
         justify-content: center;
-        border: solid 1px var(--color-text-secondary);
         text-decoration: none;
     }
 }

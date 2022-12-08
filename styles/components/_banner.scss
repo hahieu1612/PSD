@@ -8,21 +8,18 @@
         margin-top: 50px;
     }
 
-    &__primary {
+    &__title--primary {
         font-size: 50px;
     }
 
-    &__secondary {
-        font-size: 12px;
+    &__title--secondary {
+        font-size: 17px;
         margin-top: 37px;
-    }
-
-    &__third {
-        font-size: 12px;
     }
 
     &__btn {
         display: flex;
         justify-content: center;
+        margin-top: 20px;
     }
 }

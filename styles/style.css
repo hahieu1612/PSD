@@ -57,8 +57,7 @@ img {
   cursor: pointer;
   padding: 15px 30px;
 }
-.btn-custom-primary-banner {
-  margin-top: 20px;
+.btn-custom-primary {
   display: flex;
   flex-wrap: nowrap;
   padding: 20px 36px;
@@ -70,15 +69,11 @@ img {
 }
 .btn-custom-secondary {
   border: solid 1px var(--color-text-secondary);
-}
-.btn-custom-secondary-banner {
-  margin-top: 20px;
   justify-content: center;
   display: flex;
   flex-wrap: nowrap;
   padding: 20px 36px;
   justify-content: center;
-  border: solid 1px var(--color-text-secondary);
   text-decoration: none;
 }
 
@@ -92,19 +87,17 @@ img {
   color: var(--color-text-secondary);
   margin-top: 50px;
 }
-.banner__primary {
+.banner__title--primary {
   font-size: 50px;
 }
-.banner__secondary {
-  font-size: 12px;
+.banner__title--secondary {
+  font-size: 17px;
   margin-top: 37px;
-}
-.banner__third {
-  font-size: 12px;
 }
 .banner__btn {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
