@@ -1,11 +1,9 @@
 .banner {
-    display: flex;
     &__content {
-        align-items: center;
         flex-direction: column;
-        text-align: center;
         color: var(--color-text-secondary);
         margin-top: 50px;
+        @include flex(center);
     }
 
     &__title--primary {
