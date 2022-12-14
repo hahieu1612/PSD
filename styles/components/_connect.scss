@@ -1,0 +1,30 @@
+.connect {
+    &__inner {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__text--primary {
+        margin-top: 195px;
+        font-size: 27px;
+        color: var(--color-text-secondary);
+    }
+
+    &__text--secondary {
+        margin-top: 34px;
+        font-size: 17px;
+        color: var(--color-text-secondary);
+    }
+
+    .text--highlight {
+        color: var(--color-text-primary);
+    }
+
+    &__img {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+}

@@ -335,4 +335,29 @@ body {
   flex-wrap: nowrap;
 }
 
+.connect__inner {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.connect__text--primary {
+  margin-top: 195px;
+  font-size: 27px;
+  color: var(--color-text-secondary);
+}
+.connect__text--secondary {
+  margin-top: 34px;
+  font-size: 17px;
+  color: var(--color-text-secondary);
+}
+.connect .text--highlight {
+  color: var(--color-text-primary);
+}
+.connect__img {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
 /*# sourceMappingURL=style.css.map */
